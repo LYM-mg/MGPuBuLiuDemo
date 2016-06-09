@@ -61,7 +61,8 @@ static NSString *const ShopCellIdentifier = @"ShopCellIdentifier";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
      MGShopCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ShopCellIdentifier forIndexPath:indexPath];
-    cell.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0];
+//    cell.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0];
+     cell.shop = self.shops[indexPath.item];
     
     return cell;
 }
