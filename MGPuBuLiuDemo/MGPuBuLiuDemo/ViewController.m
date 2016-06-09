@@ -131,7 +131,7 @@ static NSString *const ShopCellIdentifier = @"ShopCellIdentifier";
 
 - (UIEdgeInsets)edgeInsetsInWaterflowLayout:(MGWaterflowLayout *)waterflowLayout
 {
-    return UIEdgeInsetsMake(10, 20, 30, 100);
+    return UIEdgeInsetsMake(10, 20, 30, 10);
 }
 
 @end

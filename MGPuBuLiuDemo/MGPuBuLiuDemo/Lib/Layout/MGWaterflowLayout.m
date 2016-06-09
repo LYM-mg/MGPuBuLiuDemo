@@ -24,10 +24,13 @@ static const UIEdgeInsets MGDefaultEdgeInsets = {10, 10, 10, 10};
 /** 存放所有列的当前高度 */
 @property (nonatomic, strong) NSMutableArray *columnHeights;
 
-
+/** 每一行之间的间距 */
 - (CGFloat)rowMargin;
+/** 每一列之间的间距 */
 - (CGFloat)columnMargin;
+/** 列数 */
 - (NSInteger)columnCount;
+/** 边缘间距 */
 - (UIEdgeInsets)edgeInsets;
 
 @end
@@ -95,8 +98,8 @@ static const UIEdgeInsets MGDefaultEdgeInsets = {10, 10, 10, 10};
     
 #warning 删除以前保存的高度
     [self.columnHeights removeAllObjects];
-    for (NSInteger i = 0; i < MGDefaultColumnCount; i++) {
-        [self.columnHeights addObject:@(MGDefaultEdgeInsets.top)];
+    for (NSInteger i = 0; i < self.columnCount; i++) {
+        [self.columnHeights addObject:@(self.edgeInsets.top)];
     }
     
     
@@ -119,13 +122,16 @@ static const UIEdgeInsets MGDefaultEdgeInsets = {10, 10, 10, 10};
     }
 }
 
+
+
 - (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath{
     // 创建布局属性
     UICollectionViewLayoutAttributes *attrs = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     
     CGFloat x,y,w,h;
     
-    w = (self.collectionView.frame.size.width - MGDefaultEdgeInsets.left - MGDefaultEdgeInsets.right - (MGDefaultColumnCount - 1) * MGDefaultColumnMargin)/MGDefaultColumnCount;
+//    w = (self.collectionView.frame.size.width - [self edgeInsets].left - [self edgeInsets].right - ([self columnCount] - 1) * MGDefaultColumnMargin)/[self columnCount];
+     w = (self.collectionView.frame.size.width - self.edgeInsets.left - self.edgeInsets.right - (self.columnCount - 1) * self.columnMargin) / self.columnCount;
     
     // 通过代理可以设置高度
     if ([self.delegate respondsToSelector:@selector(waterflowLayout:heightForItemAtIndex:itemWidth:)]) {
@@ -137,7 +143,8 @@ static const UIEdgeInsets MGDefaultEdgeInsets = {10, 10, 10, 10};
     // 取得所有列中高度最短的列
     NSInteger minHeightColumn = [self minHeightColumn];
 
-    x = MGDefaultEdgeInsets.left + minHeightColumn * (w + MGDefaultColumnMargin);
+//    x = MGDefaultEdgeInsets.left + minHeightColumn * (w + MGDefaultColumnMargin);
+    x = self.edgeInsets.left + minHeightColumn * (w + self.columnMargin);
 
     y = MGDefaultEdgeInsets.top + [self.columnHeights[minHeightColumn] floatValue];
 
