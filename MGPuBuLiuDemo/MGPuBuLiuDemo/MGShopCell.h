@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MGShopCell : UICollectionViewCell
+@class MGShopModel;
 
+@interface MGShopCell : UICollectionViewCell
+@property (nonatomic, strong) MGShopModel *shop;
 @end

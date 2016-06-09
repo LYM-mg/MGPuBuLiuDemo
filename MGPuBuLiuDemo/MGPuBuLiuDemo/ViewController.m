@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import "MGWaterflowLayout.h"
 #import "MGShopCell.h"
+#import "MGShopModel.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
 
 static NSString *const ShopCellIdentifier = @"ShopCellIdentifier";
 
@@ -40,21 +43,25 @@ static NSString *const ShopCellIdentifier = @"ShopCellIdentifier";
     MGWaterflowLayout *flowLayout = [[MGWaterflowLayout alloc] init];
     
     UICollectionView *collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:flowLayout];
-    
+    collectionView.dataSource = self;
+    collectionView.backgroundColor = [UIColor whiteColor];
+    collectionView.frame = self.view.frame;
     [collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([MGShopCell class]) bundle:nil] forCellWithReuseIdentifier:ShopCellIdentifier];
+    [self.view addSubview:collectionView];
     self.collectionView = collectionView;
 }
 
 #pragma mark - <UICollectionViewDataSource>
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
+    return 39;
 //    self.collectionView.footer.hidden = self.shops.count == 0;
-    return self.shops.count;
+//    return self.shops.count;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
-     XMGShopCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:XMGShopId forIndexPath:indexPath];
-    
+     MGShopCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ShopCellIdentifier forIndexPath:indexPath];
+    cell.backgroundColor = [UIColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0];
     
     return cell;
 }
