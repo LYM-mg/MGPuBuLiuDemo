@@ -14,9 +14,6 @@
 		3A9049B51D09A4CB00423153 /* MGPuBuLiuDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A9049B31D09A4CB00423153 /* MGPuBuLiuDemo.xcdatamodeld */; };
 		3A9049B71D09A4CB00423153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9049B61D09A4CB00423153 /* Assets.xcassets */; };
 		3A9049BA1D09A4CB00423153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9049B81D09A4CB00423153 /* LaunchScreen.storyboard */; };
-		3A9049C31D09A5A900423153 /* MGWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9049C21D09A5A900423153 /* MGWaterflowLayout.m */; settings = {ASSET_TAGS = (); }; };
-		3A9049C71D09A67000423153 /* MGShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9049C51D09A67000423153 /* MGShopCell.m */; settings = {ASSET_TAGS = (); }; };
-		3A9049C81D09A67000423153 /* MGShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A9049C61D09A67000423153 /* MGShopCell.xib */; settings = {ASSET_TAGS = (); }; };
 		3A904A311D09C87200423153 /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9049CC1D09C87200423153 /* MJArgument.m */; settings = {ASSET_TAGS = (); }; };
 		3A904A321D09C87200423153 /* MJConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9049CE1D09C87200423153 /* MJConst.m */; settings = {ASSET_TAGS = (); }; };
 		3A904A331D09C87200423153 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A9049D11D09C87200423153 /* MJFoundation.m */; settings = {ASSET_TAGS = (); }; };
@@ -63,7 +60,11 @@
 		3A904A5C1D09C87200423153 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A904A2C1D09C87200423153 /* UIImageView+HighlightedWebCache.m */; settings = {ASSET_TAGS = (); }; };
 		3A904A5D1D09C87200423153 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A904A2E1D09C87200423153 /* UIImageView+WebCache.m */; settings = {ASSET_TAGS = (); }; };
 		3A904A5E1D09C87200423153 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A904A301D09C87200423153 /* UIView+WebCacheOperation.m */; settings = {ASSET_TAGS = (); }; };
-		3A904A611D09C8AD00423153 /* MGShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A904A601D09C8AD00423153 /* MGShopModel.m */; settings = {ASSET_TAGS = (); }; };
+		3A904A631D09CE0C00423153 /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3A904A621D09CE0C00423153 /* 1.plist */; settings = {ASSET_TAGS = (); }; };
+		3A904A6E1D09CE6800423153 /* MGShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A904A661D09CE6800423153 /* MGShopCell.m */; settings = {ASSET_TAGS = (); }; };
+		3A904A6F1D09CE6800423153 /* MGShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A904A671D09CE6800423153 /* MGShopCell.xib */; settings = {ASSET_TAGS = (); }; };
+		3A904A701D09CE6800423153 /* MGWaterflowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A904A6A1D09CE6800423153 /* MGWaterflowLayout.m */; settings = {ASSET_TAGS = (); }; };
+		3A904A711D09CE6800423153 /* MGShopModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A904A6D1D09CE6800423153 /* MGShopModel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,11 +79,6 @@
 		3A9049B61D09A4CB00423153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A9049B91D09A4CB00423153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A9049BB1D09A4CB00423153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A9049C11D09A5A900423153 /* MGWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGWaterflowLayout.h; sourceTree = "<group>"; };
-		3A9049C21D09A5A900423153 /* MGWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGWaterflowLayout.m; sourceTree = "<group>"; };
-		3A9049C41D09A67000423153 /* MGShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGShopCell.h; sourceTree = "<group>"; };
-		3A9049C51D09A67000423153 /* MGShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGShopCell.m; sourceTree = "<group>"; };
-		3A9049C61D09A67000423153 /* MGShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGShopCell.xib; sourceTree = "<group>"; };
 		3A9049CB1D09C87200423153 /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
 		3A9049CC1D09C87200423153 /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
 		3A9049CD1D09C87200423153 /* MJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJConst.h; sourceTree = "<group>"; };
@@ -177,8 +173,14 @@
 		3A904A2E1D09C87200423153 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		3A904A2F1D09C87200423153 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		3A904A301D09C87200423153 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		3A904A5F1D09C8AD00423153 /* MGShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGShopModel.h; path = ../MGShopModel.h; sourceTree = "<group>"; };
-		3A904A601D09C8AD00423153 /* MGShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGShopModel.m; path = ../MGShopModel.m; sourceTree = "<group>"; };
+		3A904A621D09CE0C00423153 /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		3A904A651D09CE6800423153 /* MGShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGShopCell.h; sourceTree = "<group>"; };
+		3A904A661D09CE6800423153 /* MGShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGShopCell.m; sourceTree = "<group>"; };
+		3A904A671D09CE6800423153 /* MGShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGShopCell.xib; sourceTree = "<group>"; };
+		3A904A691D09CE6800423153 /* MGWaterflowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGWaterflowLayout.h; sourceTree = "<group>"; };
+		3A904A6A1D09CE6800423153 /* MGWaterflowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGWaterflowLayout.m; sourceTree = "<group>"; };
+		3A904A6C1D09CE6800423153 /* MGShopModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGShopModel.h; sourceTree = "<group>"; };
+		3A904A6D1D09CE6800423153 /* MGShopModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGShopModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,23 +214,18 @@
 			isa = PBXGroup;
 			children = (
 				3A9049C91D09C87200423153 /* Lib */,
+				3A904A641D09CE6800423153 /* Cell */,
+				3A904A681D09CE6800423153 /* Layout */,
+				3A904A6B1D09CE6800423153 /* Model */,
 				3A9049AA1D09A4CB00423153 /* AppDelegate.h */,
 				3A9049AB1D09A4CB00423153 /* AppDelegate.m */,
 				3A9049AD1D09A4CB00423153 /* ViewController.h */,
 				3A9049AE1D09A4CB00423153 /* ViewController.m */,
-				3A9049C11D09A5A900423153 /* MGWaterflowLayout.h */,
-				3A9049C21D09A5A900423153 /* MGWaterflowLayout.m */,
 				3A9049B01D09A4CB00423153 /* Main.storyboard */,
 				3A9049B61D09A4CB00423153 /* Assets.xcassets */,
 				3A9049B81D09A4CB00423153 /* LaunchScreen.storyboard */,
-				3A9049BB1D09A4CB00423153 /* Info.plist */,
 				3A9049B31D09A4CB00423153 /* MGPuBuLiuDemo.xcdatamodeld */,
 				3A9049A71D09A4CA00423153 /* Supporting Files */,
-				3A904A5F1D09C8AD00423153 /* MGShopModel.h */,
-				3A904A601D09C8AD00423153 /* MGShopModel.m */,
-				3A9049C41D09A67000423153 /* MGShopCell.h */,
-				3A9049C51D09A67000423153 /* MGShopCell.m */,
-				3A9049C61D09A67000423153 /* MGShopCell.xib */,
 			);
 			path = MGPuBuLiuDemo;
 			sourceTree = "<group>";
@@ -236,6 +233,8 @@
 		3A9049A71D09A4CA00423153 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A9049BB1D09A4CB00423153 /* Info.plist */,
+				3A904A621D09CE0C00423153 /* 1.plist */,
 				3A9049A81D09A4CB00423153 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -414,6 +413,37 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		3A904A641D09CE6800423153 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3A904A651D09CE6800423153 /* MGShopCell.h */,
+				3A904A661D09CE6800423153 /* MGShopCell.m */,
+				3A904A671D09CE6800423153 /* MGShopCell.xib */,
+			);
+			name = Cell;
+			path = Lib/Cell;
+			sourceTree = "<group>";
+		};
+		3A904A681D09CE6800423153 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				3A904A691D09CE6800423153 /* MGWaterflowLayout.h */,
+				3A904A6A1D09CE6800423153 /* MGWaterflowLayout.m */,
+			);
+			name = Layout;
+			path = Lib/Layout;
+			sourceTree = "<group>";
+		};
+		3A904A6B1D09CE6800423153 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A904A6C1D09CE6800423153 /* MGShopModel.h */,
+				3A904A6D1D09CE6800423153 /* MGShopModel.m */,
+			);
+			name = Model;
+			path = Lib/Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -472,11 +502,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A904A631D09CE0C00423153 /* 1.plist in Resources */,
 				3A9049BA1D09A4CB00423153 /* LaunchScreen.storyboard in Resources */,
-				3A9049C81D09A67000423153 /* MGShopCell.xib in Resources */,
 				3A9049B71D09A4CB00423153 /* Assets.xcassets in Resources */,
 				3A904A4A1D09C87200423153 /* MJRefresh.bundle in Resources */,
 				3A9049B21D09A4CB00423153 /* Main.storyboard in Resources */,
+				3A904A6F1D09CE6800423153 /* MGShopCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,33 +529,33 @@
 				3A904A481D09C87200423153 /* MJRefreshNormalHeader.m in Sources */,
 				3A904A321D09C87200423153 /* MJConst.m in Sources */,
 				3A904A561D09C87200423153 /* SDWebImageManager.m in Sources */,
-				3A904A611D09C8AD00423153 /* MGShopModel.m in Sources */,
 				3A904A331D09C87200423153 /* MJFoundation.m in Sources */,
 				3A904A361D09C87200423153 /* MJMethod.m in Sources */,
 				3A904A4D1D09C87200423153 /* UIScrollView+MJRefresh.m in Sources */,
 				3A904A531D09C87200423153 /* SDWebImageDecoder.m in Sources */,
 				3A904A3B1D09C87200423153 /* NSObject+MJMember.m in Sources */,
 				3A904A381D09C87200423153 /* MJTypeEncoding.m in Sources */,
+				3A904A6E1D09CE6800423153 /* MGShopCell.m in Sources */,
 				3A904A351D09C87200423153 /* MJMember.m in Sources */,
 				3A904A431D09C87200423153 /* MJRefreshAutoStateFooter.m in Sources */,
 				3A904A5B1D09C87200423153 /* UIImage+WebP.m in Sources */,
 				3A9049AC1D09A4CB00423153 /* AppDelegate.m in Sources */,
+				3A904A701D09CE6800423153 /* MGWaterflowLayout.m in Sources */,
 				3A904A551D09C87200423153 /* SDWebImageDownloaderOperation.m in Sources */,
 				3A904A411D09C87200423153 /* MJRefreshAutoGifFooter.m in Sources */,
 				3A904A4F1D09C87200423153 /* MKAnnotationView+WebCache.m in Sources */,
 				3A904A451D09C87200423153 /* MJRefreshBackNormalFooter.m in Sources */,
 				3A904A3E1D09C87200423153 /* MJRefreshComponent.m in Sources */,
 				3A904A5C1D09C87200423153 /* UIImageView+HighlightedWebCache.m in Sources */,
-				3A9049C71D09A67000423153 /* MGShopCell.m in Sources */,
 				3A904A311D09C87200423153 /* MJArgument.m in Sources */,
 				3A904A3D1D09C87200423153 /* MJRefreshBackFooter.m in Sources */,
 				3A904A461D09C87200423153 /* MJRefreshBackStateFooter.m in Sources */,
 				3A904A471D09C87200423153 /* MJRefreshGifHeader.m in Sources */,
 				3A904A5D1D09C87200423153 /* UIImageView+WebCache.m in Sources */,
 				3A904A441D09C87200423153 /* MJRefreshBackGifFooter.m in Sources */,
+				3A904A711D09CE6800423153 /* MGShopModel.m in Sources */,
 				3A904A5E1D09C87200423153 /* UIView+WebCacheOperation.m in Sources */,
 				3A904A4B1D09C87200423153 /* MJRefreshConst.m in Sources */,
-				3A9049C31D09A5A900423153 /* MGWaterflowLayout.m in Sources */,
 				3A9049A91D09A4CB00423153 /* main.m in Sources */,
 				3A904A3C1D09C87200423153 /* MJRefreshAutoFooter.m in Sources */,
 				3A904A391D09C87200423153 /* NSObject+MJCoding.m in Sources */,
